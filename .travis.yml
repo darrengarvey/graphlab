@@ -1,0 +1,11 @@
+language: cpp
+compiler:
+    - gcc
+    - clang
+script: cmake
+env:
+    - OMP_NUM_THREADS=4
+os:
+    - linux
+    - osx
+
